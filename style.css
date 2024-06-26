@@ -1,0 +1,123 @@
+:root {
+    --bg-color: #F5F4F0;
+    --border: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 28px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: 1120px;
+    margin: 88px auto;
+}
+
+.text-headline {
+    color: var(--text-headline);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title-page h1 {
+    color: var(--text-primary);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 8px 0 40px;
+}
+
+.title-page p {
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 24px 0 44px;
+}
+
+.title-list h2 {
+    color: var(--text-primary);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.title-list p {
+    color: var(--text-secondary);
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+.card-content img {
+    height: 400px;
+    margin-top: 48px;
+}
+
+.card-content h3 {
+    color: var(--text-primary);
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0 4px;
+}
+
+.card-content p {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.card-content span {
+    font-weight: bold;
+}
+
+.card-content ul li {
+    color: var(--accent-blue);
+    margin-left: 20px;
+}
+
+.card-content ul .purple {
+    color: var(--accent-purple);
+}
+
+.card-content ul .pink {
+    color: var(--accent-pink);
+}
+
+.card-content ul .orange {
+    color: var(--accent-orange);
+}
+
+.line {
+    margin: 40px 0;
+    height: 1px;
+    background-color: var(--border);
+}
+
+.description p {
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 58px 0 48px;
+}
